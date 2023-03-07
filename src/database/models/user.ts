@@ -27,7 +27,7 @@ export class User extends Model {
   @AllowNull(false)
   @Column({
     type: DataTypes.STRING,
-    field: 'google_id'
+    field: 'google_uid'
   })
   googleId: string;
 
