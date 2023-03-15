@@ -16,5 +16,6 @@ app.use(express.json());
 app.use('/user', userRouter)
 
 app.listen(PORT, () => {
+  console.clear();
   console.log(`server has been started on http://localhost:${PORT}/`);
 })
